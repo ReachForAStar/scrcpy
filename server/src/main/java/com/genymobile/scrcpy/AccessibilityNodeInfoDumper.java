@@ -81,7 +81,7 @@ public class AccessibilityNodeInfoDumper {
                 case AccessibilityEvent.TYPE_VIEW_TEXT_SELECTION_CHANGED:
                 case AccessibilityEvent.TYPE_VIEW_TEXT_TRAVERSED_AT_MOVEMENT_GRANULARITY:
                 case AccessibilityEvent.TYPE_WINDOWS_CHANGED:
-//                case AccessibilityEvent.TYPE_WINDOW_CONTENT_CHANGED:
+                case AccessibilityEvent.TYPE_WINDOW_CONTENT_CHANGED:
                 case AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED:
                     ByteArrayOutputStream bos = new ByteArrayOutputStream();
                     try {
